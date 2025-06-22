@@ -1,0 +1,94 @@
+/* style.css */
+
+/* Importa a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Estilos globais para o corpo do documento */
+body {
+    font-family: 'Inter', sans-serif; /* Define a fonte principal para o site */
+    color: #333; /* Cor padrão para o texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Garante rolagem suave ao clicar em links âncora */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo para contêineres que centralizam o conteúdo */
+.container {
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin-left: auto; /* Centraliza o contêiner horizontalmente */
+    margin-right: auto; /* Centraliza o contêiner horizontalmente */
+    padding-left: 1rem; /* Espaçamento interno nas laterais */
+    padding-right: 1rem; /* Espaçamento interno nas laterais */
+}
+
+/* Estilos para links de navegação */
+nav a {
+    @apply text-white hover:text-green-200 transition duration-300 px-3 py-2 rounded-md; /* Classes Tailwind para estilo de link */
+}
+
+/* Estilo para botões primários */
+.btn-primary {
+    @apply bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105; /* Classes Tailwind para estilo de botão */
+}
+
+/* Estilo para títulos de seção */
+.section-title {
+    @apply text-4xl font-bold text-green-800 mb-8 md:mb-12 text-center; /* Classes Tailwind para estilo de título de seção */
+}
+
+/* Estilo para cards de serviço/portfólio */
+.card {
+    @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2; /* Classes Tailwind para estilo de card */
+}
+
+/* Animação simples de fade-in para elementos visíveis */
+.animate-fadeIn {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para o formulário de contato */
+.contact-form input,
+.contact-form textarea {
+    @apply w-full p-3 rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-green-400; /* Classes Tailwind para campos de formulário */
+}
+
+/* Responsividade geral */
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos menores */
+    .section-title {
+        font-size: 2.5rem; /* Reduz o tamanho da fonte para títulos em telas menores */
+    }
+    .hero-section h1 {
+        font-size: 3rem; /* Ajusta o título principal em telas menores */
+    }
+    .hero-section p {
+        font-size: 1.1rem; /* Ajusta o parágrafo principal em telas menores */
+    }
+    .grid {
+        grid-template-columns: 1fr; /* Muda o grid para uma coluna em telas menores */
+    }
+    .flex-col-md-reverse {
+        flex-direction: column-reverse; /* Exemplo de ajuste de flex para mobile */
+    }
+}
+
+/* Estilo para o cabeçalho fixo */
+header {
+    position: sticky; /* Torna o cabeçalho fixo na parte superior ao rolar */
+    top: 0; /* Alinha o cabeçalho ao topo */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+}

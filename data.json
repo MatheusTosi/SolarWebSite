@@ -1,0 +1,83 @@
+{
+  "companyName": "Solar Paisagismo",
+  "slogan": "Transformando espaços com a natureza em Campinas e Região.",
+  "heroSection": {
+    "title": "Jardins Exuberantes, Ambientes que Inspiram",
+    "subtitle": "Experiência e dedicação para shoppings, prédios e condomínios residenciais."
+  },
+  "aboutCompany": {
+    "title": "Sobre a Solar Paisagismo",
+    "imageAlt": "Jardim bem cuidado com a logo da Solar Paisagismo",
+    "paragraphs": [
+      "A Solar Paisagismo, com sede em Campinas, é referência na criação e manutenção de áreas verdes. Com vasta experiência, atuamos em diversos segmentos, desde grandes empreendimentos como shoppings e prédios comerciais, até condomínios residenciais, sempre entregando resultados de alta qualidade e beleza.",
+      "Nossa equipe é formada por profissionais apaixonados pela natureza e altamente qualificados, que utilizam as melhores técnicas e materiais para garantir a saúde e a exuberância dos seus espaços verdes. Nosso compromisso é com a sustentabilidade, a inovação e a satisfação total dos nossos clientes."
+    ]
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "items": [
+      {
+        "icon": "🌳",
+        "name": "Manutenção de Áreas Verdes",
+        "description": "Cuidamos do seu jardim com podas, adubação, controle de pragas e doenças, garantindo a vitalidade e a beleza contínua."
+      },
+      {
+        "icon": "✂️",
+        "name": "Podas de Árvores e Correção",
+        "description": "Serviços especializados de poda para saúde e estética das árvores, incluindo podas de correção e segurança."
+      },
+      {
+        "icon": "📐",
+        "name": "Projetos de Jardins",
+        "description": "Desenvolvemos projetos paisagísticos personalizados, considerando suas necessidades, estilo e o ambiente local."
+      },
+      {
+        "icon": "🌱",
+        "name": "Implantação de Jardins",
+        "description": "Executamos a implantação completa do projeto, desde o preparo do solo até o plantio e acabamento."
+      },
+      {
+        "icon": "💧",
+        "name": "Sistemas de Irrigação",
+        "description": "Instalação e manutenção de sistemas de irrigação automatizados para otimizar o uso da água e a saúde do seu jardim."
+      },
+      {
+        "icon": "💡",
+        "name": "Iluminação Paisagística",
+        "description": "Criação de ambientes noturnos encantadores com projetos de iluminação que valorizam cada detalhe do seu paisagismo."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Projetos em Destaque",
+    "items": [
+      {
+        "name": "Condomínio Residencial Vista Verde",
+        "description": "Design moderno e funcional para áreas comuns de condomínios.",
+        "imageAlt": "Jardim de condomínio residencial"
+      },
+      {
+        "name": "Shopping Central Park",
+        "description": "Paisagismo que convida ao bem-estar e valoriza o ambiente de compras.",
+        "imageAlt": "Área verde de shopping center"
+      },
+      {
+        "name": "Edifício Comercial Alpha Tower",
+        "description": "Integração harmoniosa da natureza em espaços corporativos.",
+        "imageAlt": "Jardim de prédio comercial"
+      }
+    ]
+  },
+  "InfoDeContato": {
+    "Whatsapp": "(19) 98253-2677",
+    "Phone": "(19) 98253-2677",
+    "Email": "solar.paisagismo@gmaol.com",
+    "Address": "Rua Januario de Oliveira, 101 - Vila Teixeira"
+  },
+  "Time de Desenvolvimento": {
+    "title": "Sobre a Equipe de Desenvolvimento",
+    "paragraphs": [
+        "Este site foi desenvolvido com "
+    ]
+  }
+}
